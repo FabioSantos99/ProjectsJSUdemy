@@ -70,7 +70,7 @@ const generatePassword = (
 
       password = password.slice(0, passwordLength);
 
-      generatePasswordElement.style.dispaly = "block";
+      generatePasswordElement.style.display = "block";
       generatePasswordElement.querySelector("h4").innerText = password;
 };
 
